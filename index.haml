@@ -1,0 +1,155 @@
+!!! 5
+%html
+	%head
+		%title
+			Test from market-logic
+		%meta{charset: "utf-8"}
+		
+		%script{type: "text/javascript", src: "https://code.jquery.com/jquery-2.1.1.min.js"}
+		%script{type: "text/javascript", src: "js/jquery.bxslider.min.js"}
+		%script{type: "text/javascript", src: "js/myjs.js"}
+		%link{href: "css/jquery.bxslider.css", rel: "stylesheet"}
+		%link{href: "css/style.css", rel: "stylesheet"}
+
+	%body
+		.header
+			.top-line
+			.container
+				.logo
+					%a{href: '#', title: 'Homepage'}
+						%img{src: "img/logo.jpg", alt: "Blitz logo"}
+				%nav
+					%ul
+						%li.is-activ
+							%a{href: '#', title: 'Homepage'}
+								HOME
+						%li
+							%a{href: '#', title: 'Who are we?'}
+								ABOUT
+						%li
+							%a{href: '#', title: 'MY Portfolio'}
+								PROJECTS
+						%li
+							%a{href: '#', title: 'Latest News'}
+								BLOG
+						%li
+							%a{href: '#', title: 'Get in touch'}
+								CONTACT
+		.main
+			.container
+				.slider
+					%ul.bxslider
+						%li
+							%img{src: "img/slide1.jpg", alt: "heroes marvel slide 1"}
+							.caption
+								%h4
+									Lorem ipsum
+								%p
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non diam et lacus pulvinar venenatis et vestibulum velit. Pellentesque interdum faucibus dui hendrerit ultrices. Aliquam erat volutpat. Duis commodo turpis id diam pulvinar hendrerit.
+						%li
+							%img{src: "img/slide2.jpg", alt: "heroes marvel slide 2"}
+							.caption
+								%h4
+									Lorem ipsum
+								%p
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non diam et lacus pulvinar venenatis et vestibulum velit. Pellentesque interdum faucibus dui hendrerit ultrices. Aliquam erat volutpat. Duis commodo turpis id diam pulvinar hendrerit.
+						%li
+							%img{src: "img/slide3.jpg", alt: "heroes marvel slide 3"}
+							.caption
+								%h4
+									Lorem ipsum
+								%p
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non diam et lacus pulvinar venenatis et vestibulum velit. Pellentesque interdum faucibus dui hendrerit ultrices. Aliquam erat volutpat. Duis commodo turpis id diam pulvinar hendrerit.!	
+						%li
+							%img{src: "img/slide4.jpg", alt: "heroes slide 4"}
+							.caption
+								%h4
+									Lorem ipsum
+								%p
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non diam et lacus pulvinar venenatis et vestibulum velit. Pellentesque interdum faucibus dui hendrerit ultrices. Aliquam erat volutpat. Duis commodo turpis id diam pulvinar hendrerit.										
+
+				.articles
+					%article.check
+						%h1
+							Check Out OUR latest PROJECTS
+						%p
+							Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+						.read-more
+							READ MORE
+							.over-text
+								Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+					%article.star
+						%h1
+							Guarantee 5 STar Quality Work
+						%p
+							Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+						.read-more
+							READ MORE
+							.over-text
+								Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies
+					%article.blog
+						%h1
+							Stay connected by reading the blog
+						%p
+							Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+						.read-more
+							READ MORE
+							.over-text
+								Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies						
+				.articles.my-latest-works
+					%h2
+						%i
+							My latest work
+					%article.vallarta-brochure
+						.head-img
+							.overlay-img
+								%p
+									Vallarta Brochure
+						%h3
+							Vallarta Brochure
+						%p
+							Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. 
+						.read-more
+							READ MORE
+					%article.photoshop-tutorial
+						.head-img
+							.overlay-img
+								%p
+									Photoshop tutorial
+						%h3
+							Photoshop tutorial
+						%p
+							Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. 
+						.read-more
+							READ MORE
+					%article.business-cards
+						.head-img
+							.overlay-img
+								%p
+									Business cards
+						%h3
+							Business cards
+						%p
+							Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. 
+						.read-more
+							READ MORE
+					%article.website-design
+						.head-img
+							.overlay-img
+								%p
+									Website design
+						%h3
+							Website design
+						%p
+							Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. 
+						.read-more
+							READ MOR
+		.footer
+			.container
+				.copyright
+					All Content Copyright 2016 - All Rights Reserved.
+				.company
+					Site Developed by 
+					%span
+						Wonderful company 
+				
